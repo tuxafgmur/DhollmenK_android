@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+	<remove-project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+
+	<remove-project path="cts" name="platform/cts" groups="cts"/>
+
+	<remove-project path="developers/build" name="platform/developers/build" />
+	<remove-project path="developers/demos" name="platform/developers/demos" />
+	<remove-project path="developers/docs" name="platform/developers/docs" />
+	<remove-project path="developers/samples/android" name="platform/developers/samples/android" />
+
+	<remove-project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
+	<remove-project path="device/generic/goldfish" name="device/generic/goldfish" />
+	<remove-project path="device/generic/mips" name="device/generic/mips" />
+	<remove-project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" />
+	<remove-project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" />
+	<remove-project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" />
+	<remove-project path="device/generic/x86" name="device/generic/x86" />
+	<remove-project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
+	<remove-project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
+	<remove-project path="device/sample" name="device/sample" />
+
+	<remove-project path="docs/source.android.com" name="platform/docs/source.android.com" />
+
+	<remove-project path="external/arduino" name="platform/external/arduino" />
+	<remove-project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
+	<remove-project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
+	<remove-project path="external/grub" name="platform/external/grub" />
+	<remove-project path="external/marisa-trie" name="platform/external/marisa-trie" />
+	<remove-project path="external/mesa3d" name="platform/external/mesa3d" />
+	<remove-project path="external/qemu" name="platform/external/qemu" />
+	<remove-project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
+	<remove-project path="external/stressapptest" name="platform/external/stressapptest" />
+
+	<remove-project path="hardware/akm" name="platform/hardware/akm" />
+	<remove-project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
+	<remove-project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
+	<remove-project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" />
+	<remove-project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" />
+
+	<remove-project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" />
+	<remove-project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+	<remove-project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+	<remove-project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
+	<remove-project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+	<remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
+	<remove-project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+	<remove-project path="packages/apps/MusicFX" name="SlimRoms/packages_apps_MusicFX" />
+	<remove-project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
+	<remove-project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" />
+	<remove-project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
+	<remove-project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
+	<remove-project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
+	<remove-project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+	<remove-project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" />
+
+	<remove-project path="packages/experimental" name="platform/packages/experimental" />
+
+	<remove-project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
+
+	<remove-project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
+	<remove-project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
+	<remove-project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
+	<remove-project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" />
+	<remove-project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,notdefault" />
+	<remove-project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86,notdefault" />
+	<remove-project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
+	<remove-project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
+	<remove-project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" />
+	<remove-project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,notdefault" />
+	<remove-project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86,notdefault" />
+	<remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
+	<remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" groups="pdk,darwin,arm" />
+	<remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" />
+	<remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" />
+	<remove-project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86,notdefault" />
+	<remove-project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
+	<remove-project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
+	<remove-project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips,notdefault" />
+	<remove-project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips,notdefault" />
+	<remove-project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86,notdefault" />
+	<remove-project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86,notdefault" />
+	<remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
+	<remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
+	<remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
+	<remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
+	<remove-project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
+	<remove-project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips,notdefault" />
+	<remove-project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips,notdefault" />
+	<remove-project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86,notdefault" />
+	<remove-project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86,notdefault" />
+	<remove-project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86,notdefault" />
+	<remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
+
+</manifest>
+
+
+
+

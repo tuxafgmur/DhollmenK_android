@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+	<remote  name="cm"
+		fetch="https://github.com/"
+		review="review.cyanogenmod.org" />
+
+	<project path="device/samsung/omap4-common" name="SlimRoms/device_samsung_omap4-common" remote="github" revision="kk4.4" />
+	<project path="device/samsung/p3100" name="SlimRoms/device_samsung_p3100" remote="github" revision="kk4.4" />
+	<project path="device/samsung/p3110" name="SlimRoms/device_samsung_p3110" remote="github" revision="kk4.4" />
+	<project path="device/samsung/p5100" name="SlimRoms/device_samsung_p5100" remote="github" revision="kk4.4" />
+	<project path="device/samsung/p5110" name="SlimRoms/device_samsung_p5110" remote="github" revision="kk4.4" />
+
+	<project path="hardware/samsung" name="SlimRoms/hardware_samsung" remote="github" revision="kk4.4" />
+
+	<project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="cm-11.0" />
+	<project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="cm" revision="cm-11.0" />
+
+	<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
+
+	<project path="packages/apps/Terminal" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" />
+	<project path="packages/apps/Viper4FX" name="vipersaudio/viper4android_fx" remote="github" revision="master" />
+
+</manifest>
