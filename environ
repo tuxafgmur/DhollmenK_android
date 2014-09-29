@@ -1,0 +1,8 @@
+export WORKDIR=/zlin06
+
+export LANG=C
+export LANGUAGE=C
+export JAVA_PATH=/opt/jdk1.7.0_67/bin
+export J2REDIR=/opt/jdk1.7.0_67/jre/
+export JAVA_HOME=/opt/jdk1.7.0_67/jre/
+export PATH=$WORKDIR/bin:${JAVA_PATH}:${PATH}

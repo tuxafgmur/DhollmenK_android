@@ -1,0 +1,18 @@
+. environ
+
+export USE_CCACHE=1
+export CCACHE_DIR=$WORKDIR/.ccache
+
+export OUTROM=$WORKDIR/Kat_Out
+export TARGET_USE_O3=true
+export TARGET_GCC_VERSION_EXP=4.8
+export MAKEFLAGS="--quiet"
+
+export KBUILD_BUILD_USER="tuxafgmur"
+export KBUILD_BUILD_HOST="Dhollmen"
+
+mkdir -p $OUTROM/{host,target/{common,product}}
+mkdir -p $OUTROM/target/product/{p5100,p5110,p3100,p3110}
+
+cd $WORKDIR/Kat_Dhollmen
+[ -f build/envsetup.sh ] && . build/envsetup.sh
