@@ -15,6 +15,7 @@
 	<project path="hardware/samsung" name="SlimRoms/hardware_samsung" remote="github" revision="kk4.4" />
 
 	<project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="cm-11.0" />
+	<project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
 	<project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="cm" revision="cm-11.0" />
 
 	<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />

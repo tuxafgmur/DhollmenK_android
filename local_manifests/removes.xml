@@ -43,6 +43,7 @@
 	<remove-project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
 	<remove-project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
+	<remove-project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="github" revision="kk4.4" />
 	<remove-project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" />
 	<remove-project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
 	<remove-project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
