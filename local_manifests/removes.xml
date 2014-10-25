@@ -57,7 +57,7 @@
 	<remove-project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
 	<remove-project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
 	<remove-project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" />
-	<remove-project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="kk4.4" />
+	<!--<remove-project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="kk4.4" />-->
 
 	<remove-project path="packages/experimental" name="platform/packages/experimental" />
 
