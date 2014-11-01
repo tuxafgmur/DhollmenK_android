@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+	<remote name="omni"
+		fetch="https://github.com/omnirom"
+		review="gerrit.omnirom.org" />
+
+	<remove-project  name="SlimRoms/bootable_recovery" />
+		<project path="bootable/recovery" name="android_bootable_recovery" remote="omni" revision="android-4.4" />
+
+</manifest>
