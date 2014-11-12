@@ -17,7 +17,8 @@
 	<project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="cm-11.0" />
 	<project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
 	<project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="cm" revision="cm-11.0" />
-
+	<project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="cm" revision="cm-11.0" />
+	
 	<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
 
 	<project path="packages/apps/Viper4FX" name="vipersaudio/viper4android_fx" remote="github" revision="master" />
