@@ -4,8 +4,8 @@ export USE_CCACHE=1
 export CCACHE_DIR=$WORKDIR/.ccache
 
 export OUTROM=$WORKDIR/Kat_Out
-export TARGET_USE_O3=true
 export TARGET_GCC_VERSION_EXP=4.8
+export TARGET_USE_OPTIMIZE="-Os"
 export MAKEFLAGS="--quiet"
 
 export KBUILD_BUILD_USER="tuxafgmur"
